@@ -208,3 +208,28 @@ h2.bigtitle{
     display: grid;
     place-items: center;
 }
+
+div#background_2{
+    background: #0b1327 url(../imagens/super-bg.webp) no-repeat;
+    background-size: cover;
+}
+div#container_2{
+    position: relative;
+    width: 80%;
+    margin: 0 auto; 
+    
+}
+div#container_2 > h3{
+    text-align: center;
+    font-weight: 700;
+    font-size: 3rem;
+    margin: 0 0 1rem;
+    color: white;
+}
+div#container_2 > p{
+    color: hsla(0,0%,96.1%,.7);
+    text-align: center;
+    line-height: 2.2rem;
+    padding-bottom: 20px;
+}
+
