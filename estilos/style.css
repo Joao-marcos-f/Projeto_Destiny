@@ -9,6 +9,7 @@ main{
     width: 100vw;
     height: 100%;
     background: #0b1327 url(../imagens/starrynight.webp) no-repeat;
+    overflow: hidden;
 }
 .container{
     position: relative   ;
@@ -85,7 +86,7 @@ h2.bigtitle{
 }
 .warrios_logo > img{
     position: absolute;
-    top: 80%;
+    top: 28%;
     left: 55%;
     margin: 0;
     -webkit-transform: translate(-50%,-50%);
@@ -94,8 +95,8 @@ h2.bigtitle{
 .warrios_logo > p{
     position: absolute;
     color: white;
-    top: 80%;
-    left: 60%;
+    top: 28%;
+    left: 58%;
     margin: 0;
     -webkit-transform: translate(-50%,-50%);
     transform: translate(-50%,-50%);
@@ -110,7 +111,7 @@ h2.bigtitle{
     width: 450px;
     color: white;
     position: absolute;
-    bottom: -3%;
+    top: 32%;
     left: 52%;
     transform: translate(-50%, -50%);
     border-top: 3px solid #d29e26;
@@ -125,14 +126,36 @@ h2.bigtitle{
     place-items: center;
 }
 .cacador > img{
+    object-position: center;
+}
+.warrios_logo_cacador > img {
     position: absolute;
-    left: 30px;
+    top: 60%;
+    left: 50%;
+    margin: 0;
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
+.warrios_logo_cacador > p{
+    position: absolute;
+    color: white;
+    top: 60%;
+    left: 55%;
+    margin: 0;
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    font-size: 2.5rem;
+    text-align: center;
+    font-weight: 700;
+    white-space: nowrap;
+    text-shadow: 0 0.2rem 0.25rem rgba(0,0,0,.18823529411764706);
+    text-transform: uppercase;
 }
 .description_C{
     width: 450px;
     color: white;
     position: absolute;
-    bottom: -3%;
+    bottom: 29%;
     left: 52%;
     transform: translate(-50%, -50%);
     border-top: 3px solid #027ca1;
@@ -141,4 +164,47 @@ h2.bigtitle{
     font-size: 1.1rem;
     text-align: center;
     line-height: 1.5rem;
+}
+
+.warrios_logo_tita > p {
+    position: absolute;
+    color: white;
+    bottom: 7%;
+    left: 55%;
+    margin: 0;
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    font-size: 2.5rem;
+    text-align: center;
+    font-weight: 700;
+    white-space: nowrap;
+    text-shadow: 0 0.2rem 0.25rem rgba(0,0,0,.18823529411764706);
+    text-transform: uppercase;
+}
+
+.warrios_logo_tita > img{
+    position: absolute;
+    top: 92%;
+    left: 50%;
+    margin: 0;
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
+.description_T{
+    width: 450px;
+    color: white;
+    position: absolute;
+    top: 97%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-top: 3px solid #AB3033;
+    background-color: rgba(0,0,0,.5);
+    padding: 1.5rem;
+    font-size: 1.1rem;
+    text-align: center;
+    line-height: 1.5rem;
+}
+.tita{
+    display: grid;
+    place-items: center;
 }
