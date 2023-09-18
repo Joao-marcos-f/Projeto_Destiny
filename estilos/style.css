@@ -234,3 +234,18 @@ div#container_2 > p{
     padding-bottom: 20px;
 }
 
+div#triple_image_container_2{
+    padding: 30px;
+}
+div#imagens_2{
+    height: 120px;
+    width: 30px;
+}
+div#imagens_3{
+    height: 600px;
+    width: 30px;
+}
+div#imagens_4{
+    height: 0px;
+    width: 30px;
+}
