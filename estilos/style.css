@@ -4,16 +4,20 @@
     font-family: -apple-system,BlinkMacSystemFont,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
     box-sizing: border-box;
 }
+html, body {
+    overflow: auto;
+  }
+  
 
 main{
     width: 100vw;
     height: 100%;
     background: #0b1327 url(../imagens/starrynight.webp) no-repeat;
     overflow: hidden;
+    box-sizing: border-box;
 }
 .container{
     position: relative   ;
-    width: 80vw;
     margin: 0 auto;  
 }
 h3.toptitle{
@@ -46,9 +50,10 @@ h2,h3.bigtitle{
 div.guardians{
     width: 100vw;
     overflow: hidden;
+    box-sizing: border-box;
 }
 div.conteudo{
-    width: 90vw;
+    width: 100vw;
 }
 .imagen_block_title{
     text-align: center;
@@ -115,7 +120,7 @@ div.conteudo{
     text-transform: uppercase;
 }
 .description{
-    width: 90vw;
+    width: 450px;
     color: white;
     position: absolute;
     top: 32%;
@@ -157,7 +162,7 @@ div.conteudo{
     text-transform: uppercase;
 }
 .description_C{
-    width: 90vw;
+    width: 450px;
     color: white;
     position: absolute;
     bottom: 29%;
@@ -196,7 +201,7 @@ div.conteudo{
     transform: translate(-50%,-50%);
 }
 .description_T{
-    width: 90vw;
+    width: 450px ;
     color: white;
     position: absolute;
     top: 97%;
@@ -219,11 +224,13 @@ div#background_2{
     background: #0b1327 url(../imagens/super-bg.webp) no-repeat;
     background-size: cover;
     background-position: top center;
+    box-sizing: border-box;
 }
 div#container_2{
     position: relative;
     width: 80vw;
     margin: 0 auto; 
+    box-sizing: border-box;
 }
 div#container_2 > h3{
     text-align: center;
