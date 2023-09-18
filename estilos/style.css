@@ -6,7 +6,7 @@
 }
 
 main{
-    width: 90vw;
+    width: 100vw;
     height: 100%;
     background: #0b1327 url(../imagens/starrynight.webp) no-repeat;
     overflow: hidden;
@@ -44,7 +44,7 @@ h2,h3.bigtitle{
    width: 400px;
 }
 div.guardians{
-    width: 90vw;
+    width: 100vw;
     overflow: hidden;
 }
 .imagen_block_title{
@@ -91,7 +91,7 @@ div.guardians{
 .warrios_logo > img{
     position: absolute;
     top: 28%;
-    left: 55%;
+    left: 50%;
     margin: 0;
     -webkit-transform: translate(-50%,-50%);
     transform: translate(-50%,-50%);
@@ -116,7 +116,7 @@ div.guardians{
     color: white;
     position: absolute;
     top: 32%;
-    left: 52%;
+    left: 50%;
     transform: translate(-50%, -50%);
     border-top: 3px solid #d29e26;
     background-color: rgba(0,0,0,.5);
@@ -134,7 +134,7 @@ div.guardians{
 }
 .warrios_logo_cacador > img {
     position: absolute;
-    top: 60%;
+    top: 63%;
     left: 50%;
     margin: 0;
     -webkit-transform: translate(-50%,-50%);
@@ -143,7 +143,7 @@ div.guardians{
 .warrios_logo_cacador > p{
     position: absolute;
     color: white;
-    top: 60%;
+    top: 63%;
     left: 55%;
     margin: 0;
     -webkit-transform: translate(-50%,-50%);
@@ -160,7 +160,7 @@ div.guardians{
     color: white;
     position: absolute;
     bottom: 29%;
-    left: 52%;
+    left: 50%;
     transform: translate(-50%, -50%);
     border-top: 3px solid #027ca1;
     background-color: rgba(0,0,0,.5);
@@ -214,7 +214,7 @@ div.guardians{
 }
 
 div#background_2{
-    width: 90vw;
+    width: 100vw;
     background: #0b1327 url(../imagens/super-bg.webp) no-repeat;
     background-size: cover;
     background-position: top center;
