@@ -13,7 +13,7 @@ main{
 }
 .container{
     position: relative   ;
-    width: 90%;
+    width: 80vw;
     margin: 0 auto;  
 }
 h3.toptitle{
@@ -46,6 +46,9 @@ h2,h3.bigtitle{
 div.guardians{
     width: 100vw;
     overflow: hidden;
+}
+div.conteudo{
+    width: 90vw;
 }
 .imagen_block_title{
     text-align: center;
@@ -129,9 +132,7 @@ div.guardians{
     display: grid;
     place-items: center;
 }
-.cacador > img{
-    object-position: center;
-}
+
 .warrios_logo_cacador > img {
     position: absolute;
     top: 63%;
