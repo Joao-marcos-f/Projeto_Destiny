@@ -1,0 +1,23 @@
+@media screen and (min-width: 768px) and (max-width:992px){
+    div#background_2{
+        background-position: center center;
+        
+     }
+      div.image_block{
+        transition:width .3s, height .3s;
+        transition-timing-function: ease;
+        width: 400px;
+     }
+}
+@media screen and (min-width: 992px){
+    div.triple_image_container{
+        display: flex;
+        justify-content: space-around;
+      }
+    div.image_block{
+        transition:width .3s, height .3s;
+        transition-timing-function: ease;
+        width: 400px;
+        }
+    
+}
