@@ -212,6 +212,7 @@ h2.bigtitle{
 div#background_2{
     background: #0b1327 url(../imagens/super-bg.webp) no-repeat;
     background-size: cover;
+    background-position: top center;
 }
 div#container_2{
     position: relative;
